@@ -3,7 +3,7 @@
 1.  Find the list of planets under a particular star inside of Urbit using Hoon:
 
         =p (turn (gulf 0x1 0xffff) |=(a=@ `@p`(cat 4 ~dopzod a)))
-        *%/web/planets/txt (turn p |=(a=@p (scot %p a)))
+        *%/web/planets/txt &txt (turn p |=(a=@p (scot %p a)))
 
 2.  Copy that resulting file, `web/planets.txt`, from your pier to this directory.
 
